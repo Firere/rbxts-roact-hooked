@@ -14,12 +14,12 @@
 		"forceConsistentCasingInFileNames": true,
 		"strict": true,
 		"target": "ESNext",
-		"typeRoots": ["../node_modules/@rbxts"],
+		"typeRoots": ["../node_modules/@rbxts", "../node_modules/@firere"],
 
 		// configurable
 		"paths": {
-			"@rbxts/roact-hooked": ["../src"],
-			"@rbxts/roact-hooked/*": ["../src/*"]
+			"@firere/roact-hooked": ["../src"],
+			"@firere/roact-hooked/*": ["../src/*"]
 		},
 		"rootDirs": [
 			"stories",

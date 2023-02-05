@@ -1,5 +1,5 @@
-import Roact from "@rbxts/roact";
-import { useMemo, useState, withHookDetection } from "@rbxts/roact-hooked";
+import Roact from "@firere/roact";
+import { useMemo, useState, withHookDetection } from "@firere/roact-hooked";
 
 function WorldsWorstClock() {
 	const [unrelated, setUnrelated] = useState(0);

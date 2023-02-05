@@ -1,4 +1,4 @@
-import type Roact from "@rbxts/roact";
+import type Roact from "@firere/roact";
 
 // HOCs
 

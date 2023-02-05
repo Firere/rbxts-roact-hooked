@@ -1,5 +1,5 @@
-import Roact from "@rbxts/roact";
-import { useState, withHookDetection } from "@rbxts/roact-hooked";
+import Roact from "@firere/roact";
+import { useState, withHookDetection } from "@firere/roact-hooked";
 
 function increment(value: number) {
 	return value + 1;

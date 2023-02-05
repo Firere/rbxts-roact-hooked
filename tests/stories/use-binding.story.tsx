@@ -1,5 +1,5 @@
-import Roact from "@rbxts/roact";
-import { useBinding, useEffect, withHookDetection } from "@rbxts/roact-hooked";
+import Roact from "@firere/roact";
+import { useBinding, useEffect, withHookDetection } from "@firere/roact-hooked";
 
 const RunService = game.GetService("RunService");
 

@@ -1,7 +1,7 @@
 {
-  "name": "@rbxts/roact-hooked",
+  "name": "@firere/roact-hooked",
   "version": "2.3.3",
-  "description": "Roact hooks based on Kampfkarren's hooks & React Hooks",
+  "description": "Roact hooks based on Kampfkarren's hooks & React Hooks, compatible with my version of Roact",
   "main": "src/init.lua",
   "scripts": {
     "watch": "rbxtsc -w --type=model -p ./tests -i ./include",
@@ -11,9 +11,10 @@
     "roblox",
     "typescript",
     "roact",
-    "hooks"
+    "hooks",
+    "firere"
   ],
-  "author": "littensy",
+  "author": "Firere",
   "contributors": [
     "Spectrius"
   ],
@@ -21,10 +22,10 @@
   "types": "src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/littensy/rbxts-roact-hooked.git"
+    "url": "https://github.com/Firere/rbxts-roact-hooked.git"
   },
   "bugs": {
-    "url": "https://github.com/littensy/rbxts-roact-hooked/issues/"
+    "url": "https://github.com/Firere/rbxts-roact-hooked/issues/"
   },
   "files": [
     "src"
@@ -33,6 +34,7 @@
     "access": "public"
   },
   "devDependencies": {
+	"@firere/roblox-ts": "^2.0.4-ts.3",
     "@rbxts/compiler-types": "^2.0.4-types.1",
     "@rbxts/types": "^1.0.656",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
@@ -42,10 +44,9 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-roblox-ts": "^0.0.35",
     "prettier": "^2.8.2",
-    "roblox-ts": "^2.0.4",
     "typescript": "^4.9.4"
   },
   "peerDependencies": {
-    "@rbxts/roact": "*"
+    "@firere/roact": "*"
   }
 }

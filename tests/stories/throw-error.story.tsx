@@ -1,5 +1,5 @@
-import Roact from "@rbxts/roact";
-import { useState, withHookDetection } from "@rbxts/roact-hooked";
+import Roact from "@firere/roact";
+import { useState, withHookDetection } from "@firere/roact-hooked";
 
 function Counter({ offset = 0 }: { offset?: number }) {
 	const [counter1, setCounter1] = useState(1);

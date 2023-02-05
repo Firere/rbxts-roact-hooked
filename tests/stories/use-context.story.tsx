@@ -1,5 +1,5 @@
-import Roact from "@rbxts/roact";
-import { useContext, useState, withHookDetection } from "@rbxts/roact-hooked";
+import Roact from "@firere/roact";
+import { useContext, useState, withHookDetection } from "@firere/roact-hooked";
 
 const CounterContext1 = Roact.createContext<{ counter: number; increment: () => void }>(undefined!);
 const CounterContext2 = Roact.createContext<{ counter: number; increment: () => void }>(undefined!);

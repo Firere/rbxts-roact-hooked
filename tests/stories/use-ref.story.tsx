@@ -1,5 +1,5 @@
-import Roact from "@rbxts/roact";
-import { useEffect, useRef, withHookDetection } from "@rbxts/roact-hooked";
+import Roact from "@firere/roact";
+import { useEffect, useRef, withHookDetection } from "@firere/roact-hooked";
 
 function Clipboard() {
 	const ref = useRef<TextBox>();

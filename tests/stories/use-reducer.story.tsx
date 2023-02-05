@@ -1,5 +1,5 @@
-import Roact from "@rbxts/roact";
-import { useReducer, withHookDetection } from "@rbxts/roact-hooked";
+import Roact from "@firere/roact";
+import { useReducer, withHookDetection } from "@firere/roact-hooked";
 
 interface State {
 	count: number;
