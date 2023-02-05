@@ -1,11 +1,15 @@
-# [@rbxts/roact-hooked](https://www.npmjs.com/package/@rbxts/roact-hooked)
+# [@firere/roact-hooked](https://www.npmjs.com/package/@firere/roact-hooked)
 
 Roact hooks based on [Kampfkarren's hooks](https://github.com/Kampfkarren/roact-hooks) & [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+
+## Note
+
+This fork exists purely for use with [my version of Roact](https://www.npmjs.com/package/@firere/roact) and is not compatible with [`@rbxts/roact`](https://www.npmjs.com/package/@rbxts/roact).
 
 ## Install
 
 ```
-npm install @rbxts/roact-hooked
+npm install @firere/roact-hooked
 ```
 
 ## Usage with hook detection
@@ -16,8 +20,8 @@ It modifies `Roact.createElement` to detect hook use and wrap them in `withHooks
 
 ```tsx
 // MyComponent.tsx
-import Roact from "@rbxts/roact";
-import { markPureComponent, useEffect, useState } from "@rbxts/roact-hooked";
+import Roact from "@firere/roact";
+import { markPureComponent, useEffect, useState } from "@firere/roact-hooked";
 
 interface Props {
 	name?: string;
@@ -47,8 +51,8 @@ markPureComponent(MyComponent);
 
 ```tsx
 // mount.client.ts
-import Roact from "@rbxts/roact";
-import { withHookDetection } from "@rbxts/roact-hooked";
+import Roact from "@firere/roact";
+import { withHookDetection } from "@firere/roact-hooked";
 import { Players } from "@rbxts/services";
 import MyComponent from "./MyComponent";
 
@@ -62,8 +66,8 @@ Roact.mount(<MyComponent />, Players.LocalPlayer.WaitForChild("PlayerGui"));
 Using the HOCs directly is still possible if you do not want to modify `Roact.createElement` for hook detection.
 
 ```tsx
-import Roact from "@rbxts/roact";
-import { withHooks, withHooksPure, useEffect, useState } from "@rbxts/roact-hooked";
+import Roact from "@firere/roact";
+import { withHooks, withHooksPure, useEffect, useState } from "@firere/roact-hooked";
 
 interface Props {
 	name?: string;
